@@ -1,0 +1,33 @@
+{
+    "app_name": "VisionAssist Pro",
+    "version": "2.0.0",
+    "theme": {
+        "primary": "#4361ee",
+        "secondary": "#c77dff",
+        "accent": "#f8c7cc",
+        "background": "#f8f9fa",
+        "text": "#2b2d42"
+    },
+    "model": {
+        "yolo_path": "models/yolov8n.pt",
+        "confidence_threshold": 0.5,
+        "device": "cpu"
+    },
+    "risk_assessment": {
+        "danger_distance_car": 5,
+        "danger_distance_person": 3,
+        "warning_distance_car": 10,
+        "warning_distance_person": 5,
+        "update_frequency": 0.5
+    },
+    "api": {
+        "gemini_model": "gemini-2.5-pro-exp-03-25",
+        "temperature": 0.7,
+        "max_tokens": 150
+    },
+    "audio": {
+        "voice_speed": 1.2,
+        "volume": 0.8,
+        "language": "en"
+    }
+}

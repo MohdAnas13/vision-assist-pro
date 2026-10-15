@@ -1,0 +1,38 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Models — do NOT commit model weights; download them separately
+models/*.pt
+yolov8n.pt
+
+# Logs
+logs/
+*.log
+
+# Data
+data/results/
+*.jpg
+*.png
+*.mp4
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Temporary setup notes
+file set up.txt

@@ -1,0 +1,21 @@
+# Core dependencies
+flask>=2.3.3
+opencv-python>=4.8.1.78
+numpy>=1.24.3
+Pillow>=10.0.1
+
+# YOLO and ML
+ultralytics>=8.0.200
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Gemini AI
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+
+# Audio
+pyttsx3>=2.90
+gTTS>=3.0.0
+
+# Utilities
+requests>=2.31.0
