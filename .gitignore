@@ -19,6 +19,9 @@ data/results/
 *.png
 *.mp4
 
+# AI Assistant session files
+.junie/
+
 # IDE
 .vscode/
 .idea/
